@@ -4,7 +4,7 @@ fork from [bheinzerling/bunny](https://github.com/bheinzerling/bunny)
 
 ![bunny training](bunny.gif)
 
-![void training](https://gyazo.com/9c31b19d480103b48c77c0f53d6ffd9e)
+![void training](https://user-images.githubusercontent.com/33972190/46244257-38246000-c417-11e8-9ad6-817f0822ac8a.gif)
 
 https://twitter.com/tkasasagi/status/1045582451769192449
 
