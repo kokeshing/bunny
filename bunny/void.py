@@ -155,7 +155,7 @@ Please use `tqdm_gui(...)` instead of `tqdm(..., gui=True)`
                 tqdm.write(offset + '| ＿＿＿_＿＿＿＿|')
                 tqdm.write(offset + '        ||')
                 tqdm.write(offset + '(´･_･`)|| ')
-                tqdm.write(offset + '/      づ')
+                tqdm.write(offset + '/     づ')
 
             # Closing the progress bar.
             # Update some internal variables for close().
