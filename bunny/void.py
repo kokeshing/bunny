@@ -46,8 +46,7 @@ class TqdmDefaultWriteLock(object):
     def __exit__(self, *exc):
         self.release()
 
-
-class bunny(tqdm):
+class void(tqdm):
     monitor_interval = 10  # set to 0 to disable the thread
     monitor = None
     _lock = TqdmDefaultWriteLock()
@@ -154,9 +153,9 @@ Please use `tqdm_gui(...)` instead of `tqdm(..., gui=True)`
                 tqdm.write(offset + '|     epoch      |')
                 tqdm.write(offset + f'|   {obj:>6}       |')
                 tqdm.write(offset + '| ＿＿＿_＿＿＿＿|')
-                tqdm.write(offset + ' (\__/) ||')
-                tqdm.write(offset + ' (•ㅅ•) || ')
-                tqdm.write(offset + ' / 　 づ')
+                tqdm.write(offset + '        ||')
+                tqdm.write(offset + '(´･_･`)|| ')
+                tqdm.write(offset + '/      づ')
 
             # Closing the progress bar.
             # Update some internal variables for close().
