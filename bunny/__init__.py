@@ -1,2 +1,2 @@
 from .bunny import bunny
-from .bunny import void
+from .void import void
